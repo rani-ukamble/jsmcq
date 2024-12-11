@@ -1,0 +1,873 @@
+1.
+What is an array in JavaScript?
+
+
+A collection of numbers
+
+
+A collection of data stored in a single variable
+
+
+A collection of characters
+
+
+A collection of objects
+
+2.
+What is the correct syntax for accessing an element in an array?
+
+
+Arr.1
+
+
+Arr[1]
+
+
+Arr{1}
+
+
+Arr(1)
+
+3.
+Array index starts from?
+
+
+0
+
+
+1
+
+
+2
+
+
+3
+
+4.
+The easiest way to add a new element to an array is using the _________ method.
+
+
+ add()
+
+
+ insert()
+
+
+ push()
+
+
+set()
+
+5.
+Array elements can be deleted using the JavaScript operator?
+
+
+pop
+
+
+ shift
+
+
+ delete
+
+
+ All of the above
+
+6.
+arrays always use numbered indexes.
+
+
+ Yes
+
+
+No
+
+
+Can be yes or no
+
+
+Can not say
+
+7.
+The pop() method of the array does which of the following task?
+
+
+ updates the element
+
+
+ decrements the total length by 1
+
+
+ increments the total length by 1
+
+
+ prints the first element but no effect on the length
+
+8.
+What will be the output of the following JavaScript code? 
+
+var val1=[1,2,3];  
+
+var val2=[6,7,8];  
+
+var result=val1.concat(val2);
+
+console.log(result) 
+
+
+1, 2, 3
+
+
+ Error
+
+
+ 1, 2, 3, 6, 7, 8
+
+
+123
+
+9.
+What will be the output of the following JavaScript code?
+
+var sum=0;
+
+var arr = [10,15,20,30];  
+
+arr.forEach(function myFunction(element) 
+
+{  
+
+     sum= sum+element;  
+
+});  
+
+console.log(sum);
+
+
+70
+
+
+75
+
+
+ 10
+
+
+ error
+
+10.
+What will be the output of the following JavaScript code?
+
+ 
+
+var values=["one","two","Three"];  
+
+var ans=values.shift();  
+
+console.log(ans);
+
+
+one
+
+
+two
+
+
+ three
+
+
+ error
+
+11.
+ What will be the output of the following JavaScript code?
+
+ 
+
+var arr=[1,2,3];  
+
+var rev=arr.reverse();  
+
+console.log(rev);
+
+
+1, 2, 3
+
+
+ 3, 2, 1
+
+
+ 3
+
+
+ 1
+
+12.
+What is the slice() method used for in JavaScript?
+
+
+To remove elements from an array
+
+
+ To add elements to an array
+
+
+To extract a portion of an array and return it as a new array
+
+
+To combine two arrays
+
+13.
+What is the indexOf() method used for in JavaScript?
+
+
+To return the index of the first occurrence of an element in an array
+
+
+To return the index of the last occurrence of an element in an array
+
+
+To return the number of occurrences of an element in an array
+
+
+To return the indices of all occurrences of an element in an array
+
+ 
+
+14.
+What is the purpose of the map method in an array?
+
+
+To sort the elements in an array
+
+
+To filter the elements in an array
+
+
+ To transform each element in an array and return a new array
+
+
+To combine elements from multiple arrays into a single array
+
+ 
+
+15.
+The most common way to define a function in JavaScript is by using the ____________ keyword.
+
+
+fun
+
+
+ var
+
+
+ function
+
+
+ define
+
+16.
+How do you declare a function in JavaScript?
+
+
+var functionName = function(){}
+
+
+ function functionName(){}
+
+
+ new function functionName(){}
+
+
+let functionName = function(){}
+
+17.
+What is the purpose of the return keyword in a function?
+
+
+ To end the execution of a function
+
+
+To output a value from a function
+
+
+ To store a value in a variable
+
+
+ To define a function
+
+18.
+What is the output of the following code snippet?
+
+function greet(name) {
+
+  console.log("Hello, " + name);
+
+}
+
+greet("John");
+
+
+ Hello
+
+
+ John
+
+
+ Hello, John
+
+
+ None of the above
+
+19.
+Functions are invoked as functions or as methods with an __________.
+
+
+ invocation statement
+
+
+ invocation expression
+
+
+ invocation function
+
+
+ invocation method
+
+20.
+Can you pass parameters to a function in JavaScript?
+
+
+No
+
+
+ Only in certain situations
+
+
+ Yes
+
+
+Only in certain functions
+
+21.
+Which statement is required if you want to return a value from a function?
+
+
+continue
+
+
+ break
+
+
+ loop
+
+
+ return
+
+22.
+The Function() constructor expects ______ number of string arguments
+
+
+0
+
+
+ 1
+
+
+ 2
+
+
+any
+
+23.
+What is a function expression in JavaScript?
+
+
+A function declared as a variable
+
+
+A function declared as a constant
+
+
+A function declared as a property of an object
+
+ 
+
+24.
+How do you create a function expression in JavaScript?
+
+
+By assigning an anonymous function to a variable
+
+
+ By assigning a named function to a constant
+
+
+By assigning a named function to a property of an object
+
+25.
+How can you define a function with unlimited parameters in JavaScript?
+
+
+By using the arguments object
+
+
+By using the rest operator (...)
+
+
+By using both arguments object and the rest operator
+
+26.
+What is the syntax of an arrow function in JavaScript?
+
+
+function(params){...}
+
+
+(params) => {...}
+
+
+params => return {...}
+
+27.
+What is the value of this inside an arrow function in JavaScript?
+
+
+The value of this from the enclosing scope
+
+
+The value of this from the global scope
+
+
+The value of this from the constructor function
+
+28.
+Can you use an argument object inside an arrow function in JavaScript?
+
+
+Yes
+
+
+No
+
+29.
+What is the syntax of an anonymous function in JavaScript?
+
+
+function(){...}
+
+
+var myFunction = function(){...}
+
+
+Both A and B
+
+30.
+What is an anonymous function in JavaScript?
+
+
+A function without a name
+
+
+A function with a name
+
+
+A function that returns a value
+
+ 
+
+31.
+What is the method used to merge two or more objects together into the first object?
+
+
+merge()
+
+
+combine()
+
+
+Object.assign()
+
+
+joinObjects()
+
+32.
+What is the method used to return the prototype of an object?
+
+
+prototypeOf()
+
+
+objectPrototype()
+
+
+getPrototypeOf()
+
+
+prototype()
+
+33.
+What is the method used to check if an object has a property with the specified name?
+
+
+hasOwn()
+
+
+ownProperty()
+
+
+hasOwnProperty()
+
+
+ownProp()
+
+34.
+What is the method used to return an array of a given object's      own enumerable property values?
+
+
+values()
+
+
+enumerable()
+
+
+objectValues()
+
+
+Object.values()
+
+35.
+What is the purpose of self-invoking functions in JavaScript?
+
+
+To create a new scope and limit the visibility of variables
+
+
+ To make sure that the function is only called once
+
+
+ Both A and B
+
+36.
+What is the purpose of objects in JavaScript?
+
+
+To store and organize data
+
+
+To group functions together
+
+
+Both A and B
+
+37.
+How can you model real-world entities using objects in JavaScript?
+
+
+By creating properties for the entity's attributes
+
+
+By creating methods for the entity's behaviors
+
+
+Both A and B
+
+38.
+Can you create reusable objects in JavaScript?
+
+
+ Yes
+
+
+ No
+
+39.
+How can you create multiple instances of the same object in JavaScript?
+
+
+By using object constructor notation
+
+
+By using object literal notation
+
+
+Both A and B
+
+40.
+What is the advantage of using objects over using primitive data types in JavaScript?
+
+
+Objects can store multiple values, while primitive data types can only store one value
+
+
+Objects can have methods, while primitive data types cannot
+
+
+ Both A and B
+
+41.
+What are self-invoking functions in JavaScript?
+
+
+ Functions that call themselves
+
+
+Functions that are immediately invoked after being defined
+
+
+Both A and B
+
+42.
+How do you create a self-invoking function in JavaScript?
+
+
+By wrapping the function definition in parenthesis and adding an extra set of parentheses at the end
+
+
+ By wrapping the function definition in brackets and adding an extra set of brackets at the end
+
+
+By wrapping the function definition in braces and adding an extra set of braces at the end
+
+43.
+Are self-invoking functions called immediately after being defined?
+
+
+Yes
+
+
+No
+
+44.
+Can you pass arguments to a self-invoking function in JavaScript?
+
+
+Yes
+
+
+No
+
+45.
+How can you add properties to an object in JavaScript?
+
+
+By using the dot notation
+
+
+By using the square bracket notation
+
+
+Both A and B
+
+46.
+How can you access the value of a property in an object in JavaScript?
+
+
+By using the dot notation
+
+
+By using the square bracket notation
+
+
+Both A and B
+
+47.
+Can you add a method to an object in JavaScript?
+
+
+Yes
+
+
+No
+
+48.
+What is the syntax for creating an object using object literal notation in JavaScript?
+
+
+var myObj = new Object();
+
+
+var myObj = {};
+
+
+var myObj = Object();
+
+49.
+How can you create an object in JavaScript?
+
+
+ By using object literal notation
+
+
+ By using object constructor notation
+
+
+ Both A and B
+
+50.
+Can you mix required and unlimited parameters in the same function in JavaScript?
+
+
+Yes
+
+
+No
+
+51.
+How can you access the individual parameters passed to a function with unlimited parameters in JavaScript?
+
+
+ By using the arguments object
+
+
+By accessing the individual elements of the rest operator
+
+
+ By using both arguments object and the rest operator
+
+52.
+What is the syntax of a function with unlimited parameters using the rest operator in JavaScript?
+
+
+function(params, ...args){...}
+
+
+function(...params){...}
+
+
+function(args){...}
+
+53.
+
+What is the method used to add a property to an object in JavaScript?
+
+
+add()
+
+
+ push()
+
+
+ assign()
+
+
+ Object.defineProperty()
+
+54.
+What is an object in JavaScript?
+
+
+A primitive data type
+
+
+A data structure that stores multiple values
+
+
+A function
+
+
+A method
+
+55.
+Which keyword is used to create a new object in JavaScript?
+
+
+object
+
+
+this
+
+
+ new
+
+
+ var
+
+56.
+How do you access a property of an object in JavaScript?
+
+
+Using the dot notation
+
+
+ Using square brackets
+
+
+ Both a and b
+
+
+ None of the above
+
+57.
+How do you add a new property to an existing object in JavaScript?
+
+
+Using the dot notation
+
+
+Using square brackets
+
+
+Both a and b
+
+
+None of the above
+
+58.
+What is the difference between null and undefined in JavaScript?
+
+
+They are the same
+
+
+ null means that a variable has no value assigned to it, while undefined means that a variable has been declared but not assigned a value
+
+
+ undefined means that a variable has no value assigned to it, while null means that a variable has been declared but not assigned a value
+
+
+ None of the above
+
+59.
+How do you check if a property exists in an object in JavaScript?
+
+
+Using the hasOwnProperty() method
+
+
+Using the in operator
+
+
+Both a and b
+
+
+None of the above
+
+60.
+How do you iterate over the properties of an object in JavaScript?
+
+
+Using a for loop
+
+
+Using the Object.keys() method
+
+
+Using the Object.values() method
+
+
+Both a and b
+
+61.
+What is the difference between a method and a property in JavaScript objects?
+
+
+They are the same thing
+
+
+A property is a value stored in an object, while a method is a function stored in an object
+
+
+A method is a value stored in an object, while a property is a function stored in an object
+
+
+None of the above
